@@ -14,7 +14,7 @@ export function Layout(props: LayoutProps) {
   return (
     <div className={cn(className)}>
       <Header />
-      <main className="container">{children}</main>
+      <main className="container mx-auto">{children}</main>
       <footer className="flex items-center justify-center py-4 whitespace-pre">
         © {new Date().getFullYear()}, Built with
         {` `}

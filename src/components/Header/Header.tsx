@@ -71,6 +71,12 @@ export function Header(props: HeaderProps) {
               >
                 Register
               </a>
+              <a
+                className="hidden rounded-md bg-gray-200 px-5 py-2.5 text-sm font-medium text-black transition hover:text-black/80 sm:block"
+                href="/"
+              >
+                Register
+              </a>
             </div>
 
             <button className="block rounded bg-gray-100 p-2.5 text-gray-600 transition hover:text-gray-600/75 md:hidden">
